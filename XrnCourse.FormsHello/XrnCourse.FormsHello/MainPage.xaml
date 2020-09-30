@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Padding="0, 20, 0, 20"
+             x:Class="XrnCourse.FormsHello.MainPage">
+    <StackLayout HorizontalOptions="FillAndExpand">
+        <Label x:Name="lblWelcome" 
+           Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+        <Button x:Name="btnAlertPage" Text="Go to alert page"
+                Clicked="BtnAlertPage_Clicked"></Button>
+        <Button x:Name="btnActionSheet" Text="Show Action Sheet"
+                Clicked="BtnActionSheet_Clicked"></Button>
+        <Button x:Name="btnShowModal" Text="Show modal page"
+                Clicked="BtnShowModal_Clicked"></Button>
+        <Button x:Name="btnRandomNumber" Text="Random number page"
+                Clicked="BtnRandomNumber_Clicked"></Button>
+    </StackLayout>
+</ContentPage>
